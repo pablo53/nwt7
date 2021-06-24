@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/pablo/Documents/nwt7/nwt7.sch)
-    (date "2021 June 24, Thursday 17:31:10")
+    (date "2021 June 24, Thursday 22:44:54")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
