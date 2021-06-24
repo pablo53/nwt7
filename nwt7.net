@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/pablo/Documents/nwt7/nwt7.sch)
-    (date "2021 June 24, Thursday 03:10:05")
+    (date "2021 June 24, Thursday 17:31:10")
     (tool "Eeschema 4.0.2-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -17,7 +17,7 @@
   (components
     (comp (ref ST3)
       (value DB9)
-      (footprint DDS:DB9_Base)
+      (footprint DDS:DB9_Female_Short)
       (libsource (lib conn) (part DB9))
       (sheetpath (names /) (tstamps /))
       (tstamp 60DC3286))
