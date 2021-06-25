@@ -3,3 +3,4 @@
 *-cache.lib
 *.bak
 *-bak
+_autosave*
