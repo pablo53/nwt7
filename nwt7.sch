@@ -2402,7 +2402,7 @@ Wire Wire Line
 Wire Wire Line
 	1000 1500 1000 1600
 Wire Wire Line
-	1000 1600 1500 1600
+	850  1600 1500 1600
 Connection ~ 1500 1600
 Wire Wire Line
 	900  2150 1000 2150
@@ -2855,13 +2855,6 @@ Wire Wire Line
 	8250 3900 8250 4050
 Wire Wire Line
 	8650 4350 8650 4200
-Wire Wire Line
-	3300 1500 3300 600 
-Wire Wire Line
-	3300 600  5400 600 
-Wire Wire Line
-	5400 600  5400 1100
-Connection ~ 5400 1100
 $Comp
 L 78Lxx IC12
 U 1 1 60E2CC00
@@ -2873,4 +2866,77 @@ F 3 "" H 2250 5100 50  0000 C CNN
 	1    2250 5100
 	0    1    1    0   
 $EndComp
+$Comp
+L 78Lxx IC3
+U 1 1 60E51113
+P 2850 1350
+F 0 "IC3" H 2700 1550 50  0000 C CNN
+F 1 "78L05" H 2950 1550 50  0000 C CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Rugged" H 2850 1350 50  0001 C CNN
+F 3 "" H 2850 1350 50  0000 C CNN
+	1    2850 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 1300 3300 1300
+Wire Wire Line
+	2450 1300 2300 1300
+Connection ~ 2300 1300
+Wire Wire Line
+	2850 1600 2850 1800
+Connection ~ 2850 1800
+$Comp
+L C_Small C22
+U 1 1 60E59890
+P 2550 1650
+F 0 "C22" H 2560 1720 50  0000 L CNN
+F 1 "100n" H 2560 1570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 2550 1650 50  0001 C CNN
+F 3 "" H 2550 1650 50  0000 C CNN
+	1    2550 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2650 1650 2900 1650
+Connection ~ 2850 1650
+Wire Wire Line
+	2450 1650 2300 1650
+Connection ~ 2300 1650
+Wire Wire Line
+	3300 1300 3300 1500
+$Comp
+L C_Small C20
+U 1 1 60E64AAB
+P 850 1400
+F 0 "C20" H 850 1450 50  0000 L CNN
+F 1 "10u" H 850 1500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 850 1400 50  0001 C CNN
+F 3 "" H 850 1400 50  0000 C CNN
+	1    850  1400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	850  1500 850  1600
+Connection ~ 1000 1600
+Wire Wire Line
+	850  1300 850  1100
+Connection ~ 850  1100
+$Comp
+L C_Small C38
+U 1 1 60E6CA83
+P 3000 1650
+F 0 "C38" H 3010 1720 50  0000 L CNN
+F 1 "100n" H 3010 1570 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206_HandSoldering" H 3000 1650 50  0001 C CNN
+F 3 "" H 3000 1650 50  0000 C CNN
+	1    3000 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3100 1650 3150 1650
+Wire Wire Line
+	3150 1650 3150 1400
+Wire Wire Line
+	3150 1400 3300 1400
+Connection ~ 3300 1400
 $EndSCHEMATC
